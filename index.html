@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anand Natu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="neu-nav">
+    <a href="/" class="neu-nav__logo">AN</a>
+    <div class="neu-nav__links">
+      <a href="#projects" class="neu-nav__link neu-nav__link--active">Projects</a>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <section id="projects" class="section">
+      <h1 class="section__title">Projects</h1>
+      <p class="section__subtitle">A summary of my public GitHub repositories.</p>
+
+      <div class="project-grid">
+
+        <!-- pi0 -->
+        <article class="neu-card">
+          <div class="neu-card__header">
+            <h2 class="neu-card__title">pi0</h2>
+            <span class="neu-card__year">2026</span>
+          </div>
+          <div class="neu-card__tags">
+            <span class="neu-tag">Python</span>
+            <span class="neu-tag">PyTorch</span>
+            <span class="neu-tag">Robotics</span>
+          </div>
+          <p class="neu-card__body">
+            A research reimplementation of the pi0 Vision-Language-Action (VLA) flow model from Physical Intelligence, scaled down for single-GPU training and simulation validation. Turns a pre-trained Vision-Language Model into a robot controller by generating continuous actions through flow matching rather than autoregressive token prediction (~87M trainable parameters).
+          </p>
+          <a href="https://github.com/anatu/pi0" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+        </article>
+
+        <!-- miniVLA -->
+        <article class="neu-card">
+          <div class="neu-card__header">
+            <h2 class="neu-card__title">miniVLA</h2>
+            <span class="neu-card__year">2026</span>
+          </div>
+          <div class="neu-card__tags">
+            <span class="neu-tag">Python</span>
+            <span class="neu-tag">PyTorch</span>
+            <span class="neu-tag">Robotics</span>
+          </div>
+          <p class="neu-card__body">
+            A small-scale proof-of-concept Vision-Language-Action model built from scratch. Combines a GRU text encoder, CNN image encoder, and MLP state encoder with a diffusion policy head (DDPM) to output robot actions conditioned on fused language, vision, and state inputs.
+          </p>
+          <a href="https://github.com/anatu/miniVLA" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+        </article>
+
+        <!-- evals-substack -->
+        <article class="neu-card">
+          <div class="neu-card__header">
+            <h2 class="neu-card__title">evals-substack</h2>
+            <span class="neu-card__year">2026</span>
+          </div>
+          <div class="neu-card__tags">
+            <span class="neu-tag">Python</span>
+            <span class="neu-tag">LLM Evals</span>
+          </div>
+          <p class="neu-card__body">
+            Companion code for Substack posts about AI/LLM evaluation methods. Contains self-contained simulation pipelines that demonstrate how different evaluation metrics work &mdash; exact match, functional correctness, pass@k, and reference similarity &mdash; using synthetic data and from-scratch implementations with publication-quality visualizations.
+          </p>
+          <a href="https://github.com/anatu/evals-substack" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+        </article>
+
+        <!-- AA203 -->
+        <article class="neu-card">
+          <div class="neu-card__header">
+            <h2 class="neu-card__title">AA203-Project-Spring19</h2>
+            <span class="neu-card__year">2019</span>
+          </div>
+          <div class="neu-card__tags">
+            <span class="neu-tag">Python</span>
+            <span class="neu-tag">Controls</span>
+          </div>
+          <p class="neu-card__body">
+            Final project for Stanford's AA203 (Optimal and Learning-Based Control). Implements Model-Predictive Control (MPC) for trajectory tracking, combining optimization-based planning with real-time control execution.
+          </p>
+          <a href="https://github.com/anatu/AA203-Project-Spring19" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+        </article>
+
+        <!-- CS231n Project -->
+        <article class="neu-card">
+          <div class="neu-card__header">
+            <h2 class="neu-card__title">CS231n-Project-2019</h2>
+            <span class="neu-card__year">2019</span>
+          </div>
+          <div class="neu-card__tags">
+            <span class="neu-tag">Python</span>
+            <span class="neu-tag">PyTorch</span>
+            <span class="neu-tag">Computer Vision</span>
+          </div>
+          <p class="neu-card__body">
+            Final project for Stanford's CS231n (CNNs for Visual Recognition). A waste/trash image classification system using transfer learning with deep CNNs &mdash; fine-tuning pretrained MobileNetV2, ResNet101, and VGG architectures on the TrashNet dataset for automated recycling and sorting applications.
+          </p>
+          <a href="https://github.com/anatu/CS231n-Project-2019" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+        </article>
+
+        <!-- CS231n Assignments -->
+        <article class="neu-card">
+          <div class="neu-card__header">
+            <h2 class="neu-card__title">CS231n-Assignments</h2>
+            <span class="neu-card__year">2019</span>
+          </div>
+          <div class="neu-card__tags">
+            <span class="neu-tag">Python</span>
+            <span class="neu-tag">Deep Learning</span>
+          </div>
+          <p class="neu-card__body">
+            Completed programming assignments for Stanford's CS231n (CNNs for Visual Recognition). Covers the progression from basic classifiers (kNN, SVM, Softmax) through two-layer neural networks to full deep learning architectures, with implementations in Jupyter notebooks.
+          </p>
+          <a href="https://github.com/anatu/CS231n-Assignments" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+        </article>
+
+        <!-- E-Cue -->
+        <article class="neu-card">
+          <div class="neu-card__header">
+            <h2 class="neu-card__title">E-Cue</h2>
+            <span class="neu-card__year">2019</span>
+          </div>
+          <div class="neu-card__tags">
+            <span class="neu-tag">Unity / C#</span>
+            <span class="neu-tag">Python</span>
+            <span class="neu-tag">OpenCV</span>
+          </div>
+          <p class="neu-card__body">
+            Final project for Stanford ME310 (Engineering Design Entrepreneurship). An interactive Unity experience where head-nod gestures &mdash; detected via webcam using OpenCV face detection and Lucas-Kanade optical flow &mdash; trigger scene transitions and character interactions in real time over UDP.
+          </p>
+          <a href="https://github.com/anatu/E-Cue" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+        </article>
+
+        <!-- ME210 -->
+        <article class="neu-card">
+          <div class="neu-card__header">
+            <h2 class="neu-card__title">ME210-W2020</h2>
+            <span class="neu-card__year">2020</span>
+          </div>
+          <div class="neu-card__tags">
+            <span class="neu-tag">C++</span>
+            <span class="neu-tag">Arduino</span>
+            <span class="neu-tag">Mechatronics</span>
+          </div>
+          <p class="neu-card__body">
+            Project for Stanford's ME210 (Introduction to Mechatronics). An autonomous competition robot built on PlatformIO/Arduino, using line-following sensors, IR detection, and DC motor control with encoder feedback to navigate an arena and execute timed attack maneuvers.
+          </p>
+          <a href="https://github.com/anatu/ME210-W2020" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+        </article>
+
+        <!-- CME241 -->
+        <article class="neu-card">
+          <div class="neu-card__header">
+            <h2 class="neu-card__title">Stanford-CME241-W2020</h2>
+            <span class="neu-card__year">2020</span>
+          </div>
+          <div class="neu-card__tags">
+            <span class="neu-tag">Python</span>
+            <span class="neu-tag">RL</span>
+            <span class="neu-tag">Finance</span>
+          </div>
+          <p class="neu-card__body">
+            Coursework for Stanford's CME241 (Stochastic Control and Reinforcement Learning for Finance). Explores the application of RL techniques to financial decision-making problems including portfolio optimization and derivatives pricing.
+          </p>
+          <a href="https://github.com/anatu/Stanford-CME241-W2020" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+        </article>
+
+        <!-- CS221 -->
+        <article class="neu-card">
+          <div class="neu-card__header">
+            <h2 class="neu-card__title">CS221-Fall2018</h2>
+            <span class="neu-card__year">2018</span>
+          </div>
+          <div class="neu-card__tags">
+            <span class="neu-tag">Python</span>
+            <span class="neu-tag">AI</span>
+          </div>
+          <p class="neu-card__body">
+            Homework assignments for Stanford's CS221 (AI: Principles and Techniques). Covers foundational AI topics including sentiment analysis, text reconstruction, reinforcement learning (Blackjack), game-playing agents (Pacman), constraint satisfaction (scheduling), car tracking, and logical inference.
+          </p>
+          <a href="https://github.com/anatu/CS221-Fall2018" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+        </article>
+
+        <!-- stonks -->
+        <article class="neu-card">
+          <div class="neu-card__header">
+            <h2 class="neu-card__title">stonks</h2>
+            <span class="neu-card__year">2018</span>
+          </div>
+          <div class="neu-card__tags">
+            <span class="neu-tag">Python</span>
+            <span class="neu-tag">Finance</span>
+          </div>
+          <p class="neu-card__body">
+            A personal stock analysis toolkit that computes technical indicators (moving average regime detection, on-balance volume, MACD) from scratch on stock price data. Generates buy/sell signal reports and can email them automatically, with Robinhood integration.
+          </p>
+          <a href="https://github.com/anatu/stonks" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+        </article>
+
+        <!-- Gamedata_scrape -->
+        <article class="neu-card">
+          <div class="neu-card__header">
+            <h2 class="neu-card__title">Gamedata_scrape</h2>
+            <span class="neu-card__year">2017</span>
+          </div>
+          <div class="neu-card__tags">
+            <span class="neu-tag">Python</span>
+            <span class="neu-tag">Scrapy</span>
+          </div>
+          <p class="neu-card__body">
+            A set of web scraping tools for extracting metadata about videogames across all major platforms from several aggregator websites. Built with the Scrapy library for structuring scraping spiders and item processing pipelines.
+          </p>
+          <a href="https://github.com/anatu/Gamedata_scrape" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+        </article>
+
+        <!-- ML_working -->
+        <article class="neu-card">
+          <div class="neu-card__header">
+            <h2 class="neu-card__title">ML_working</h2>
+            <span class="neu-card__year">2017</span>
+          </div>
+          <div class="neu-card__tags">
+            <span class="neu-tag">Python</span>
+            <span class="neu-tag">ML</span>
+          </div>
+          <p class="neu-card__body">
+            Miscellaneous regression and classification models for machine learning, developed as part of a Udemy Data Science and ML in Python course. Covers fundamental ML techniques and hands-on model building.
+          </p>
+          <a href="https://github.com/anatu/ML_working" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="neu-footer">
+    <p>&copy; 2026 Anand Natu</p>
+  </footer>
+
+</body>
+</html>
