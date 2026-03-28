@@ -14,12 +14,175 @@
   <nav class="neu-nav">
     <a href="/" class="neu-nav__logo">AN</a>
     <div class="neu-nav__links">
-      <a href="#projects" class="neu-nav__link neu-nav__link--active">Projects</a>
+      <a href="#about" class="neu-nav__link">About</a>
+      <a href="#experience" class="neu-nav__link">Experience</a>
+      <a href="#education" class="neu-nav__link">Education</a>
+      <a href="#projects" class="neu-nav__link">Projects</a>
     </div>
   </nav>
 
   <main class="container">
 
+    <!-- ============================================================
+         About
+         ============================================================ -->
+    <section id="about" class="section">
+      <h1 class="section__title">Anand Natu</h1>
+      <p class="section__subtitle">Sr. Product Manager &mdash; AI/ML</p>
+
+      <div class="neu-card neu-card--wide">
+        <p class="neu-card__body">
+          Product leader with a decade of experience spanning AI/ML product management, applied research, and technology consulting. Currently leading AI/ML initiatives for Reddit's Ads Marketplace &mdash; including content understanding infrastructure, searcher monetization, ads safety modeling, and agentic commerce. Previously drove responsible AI programs at Meta (algorithmic fairness, GenAI labeling strategy) and built brand protection systems at Amazon at billion-product scale. Started in advanced technology consulting at Keystone Strategy, where I was a founding member of the practice area that now drives the majority of firm revenue. Stanford M.S. in Robotics; McGill B.Eng. in Chemical Engineering. Bilingual in English and Spanish.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         Experience
+         ============================================================ -->
+    <section id="experience" class="section">
+      <h1 class="section__title">Experience</h1>
+      <p class="section__subtitle">Professional roles and key contributions.</p>
+
+      <div class="experience-list">
+
+        <!-- Reddit -->
+        <article class="neu-card neu-card--wide">
+          <div class="neu-card__header">
+            <div class="neu-card__header-left">
+              <img src="assets/logos/reddit.png" alt="Reddit logo" class="neu-card__logo">
+              <div>
+              <h2 class="neu-card__title">Reddit</h2>
+              <p class="neu-card__role">Sr. Product Manager &mdash; AI/ML, Ads Marketplace</p>
+              </div>
+            </div>
+            <div class="neu-card__meta">
+              <span class="neu-card__year">Oct 2023 &ndash; Present</span>
+              <span class="neu-card__location">San Francisco / New York</span>
+            </div>
+          </div>
+          <div class="neu-card__body">
+            <ul class="experience-list__bullets">
+              <li><strong>Ads AI/ML Foundations:</strong> PM for Ads content understanding (infra, modeling, evals) powering content classification across the entire Ads business &mdash; brand safety, entity detection, custom signals (sentiment, commercial intent, contextual relevance), and brand/product insights for advertisers.</li>
+              <li><strong>Searchers Monetization:</strong> Product lead for monetizing high-intent users arriving via search channels like Google (50% of DAU, ~$400M 3-year opportunity). Developed the business case and technical scope; drove +100% CVR / +66% CTR in 2025. Leading applied research in SFT for contextual relevance and commercial intent classification.</li>
+              <li><strong>Ads Safety:</strong> Own all first-party safety modeling &mdash; organic content classification for brand safety &amp; suitability, sensitive ads labeling for age gating and targeting exclusions, and cross-functional alignment on safety definitions and standards.</li>
+              <li><strong>Agentic Commerce (Reddit Answers):</strong> Product lead for the retrieval/ranking backend of organic agentic shopping features. Scoped the full retrieval flow including data acquisition, an LLM-powered product selection system, and guardrails for grounding, sentiment, and safety.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Meta -->
+        <article class="neu-card neu-card--wide">
+          <div class="neu-card__header">
+            <div class="neu-card__header-left">
+              <img src="assets/logos/meta.png" alt="Meta logo" class="neu-card__logo">
+              <div>
+              <h2 class="neu-card__title">Meta</h2>
+              <p class="neu-card__role">Sr. Product Manager &mdash; Meta AI Research (Responsible AI)</p>
+              </div>
+            </div>
+            <div class="neu-card__meta">
+              <span class="neu-card__year">Apr 2022 &ndash; Oct 2023</span>
+              <span class="neu-card__location">Menlo Park, CA</span>
+            </div>
+          </div>
+          <div class="neu-card__body">
+            <ul class="experience-list__bullets">
+              <li><strong>Algorithmic Fairness Mitigations:</strong> Led R&amp;D and built an internal toolset to implement privacy-robust fairness mitigations (noise cancellation, hierarchical methods, reweighting/resampling) into AI use cases across the Family of Apps (FB, IG, WA). Supported the launch of the Variance Reduction System (VRS) to produce fair outcomes in sensitive ads (HEC) delivery for race subgroups.</li>
+              <li><strong>GenAI Labeling:</strong> Developed a company-wide strategy for responsible use of GenAI for data labeling (nine-figure efficiency opportunity). Formulated policy &amp; legal stance and led applied research. Delivered &gt;50% OpEx reduction on critical use cases with no significant degradation on fairness or quality metrics.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Amazon -->
+        <article class="neu-card neu-card--wide">
+          <div class="neu-card__header">
+            <div class="neu-card__header-left">
+              <img src="assets/logos/amazon.png" alt="Amazon logo" class="neu-card__logo">
+              <div>
+              <h2 class="neu-card__title">Amazon</h2>
+              <p class="neu-card__role">Sr. Technical Product Manager &mdash; Brand Protection (Brand Registry)</p>
+              </div>
+            </div>
+            <div class="neu-card__meta">
+              <span class="neu-card__year">Jun 2020 &ndash; Apr 2022</span>
+              <span class="neu-card__location">Seattle, WA</span>
+            </div>
+          </div>
+          <div class="neu-card__body">
+            <ul class="experience-list__bullets">
+              <li><strong>Automated Brand Detection:</strong> Owned Amazon's brand identification system for &gt;3B products (ASINs) in the Consumer catalog, driving all brand tools and catalog protection features. Scaled coverage from 60% to 92% of traffic. Developed ML clustering models to increase labeling efficiency by ~47x.</li>
+              <li><strong>Brand Self-Service Identification:</strong> Business owner for worldwide launch of Brand Registry's first self-service permissions management tool for ~10M third-party brand owners. Eliminated 1.4k support contacts per week and reduced average onboarding time by 11 days.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Keystone -->
+        <article class="neu-card neu-card--wide">
+          <div class="neu-card__header">
+            <div class="neu-card__header-left">
+              <img src="assets/logos/keystone.png" alt="Keystone Strategy logo" class="neu-card__logo">
+              <div>
+              <h2 class="neu-card__title">Keystone Strategy</h2>
+              <p class="neu-card__role">Sr. Consultant</p>
+              </div>
+            </div>
+            <div class="neu-card__meta">
+              <span class="neu-card__year">2015 &ndash; 2020</span>
+              <span class="neu-card__location">New York, NY</span>
+            </div>
+          </div>
+          <div class="neu-card__body">
+            <p>Founding member of the K.ATS practice area for advanced technology consulting, which today drives &gt;80% of firm revenue. Projects spanned product ops and go-to-market strategy, IP &amp; technology valuation (fair use, transfer pricing), and commercial litigation support across industries including AAA game publishing, enterprise software, social media, travel, and biotechnology. Full-time from 2015&ndash;2018, continuing part-time through Stanford (2018&ndash;2020).</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         Education
+         ============================================================ -->
+    <section id="education" class="section">
+      <h1 class="section__title">Education</h1>
+      <p class="section__subtitle">Academic background.</p>
+
+      <div class="education-grid">
+
+        <article class="neu-card">
+          <div class="neu-card__header">
+            <div class="neu-card__header-left">
+              <img src="assets/logos/stanford.png" alt="Stanford University logo" class="neu-card__logo">
+              <h2 class="neu-card__title">Stanford University</h2>
+            </div>
+            <span class="neu-card__year">2020</span>
+          </div>
+          <p class="neu-card__role">M.S., Robotics</p>
+          <p class="neu-card__body">
+            Concentration in mechatronics, deep reinforcement learning, computer vision, and planning. Coursework included optimal control (AA203), convolutional neural networks (CS231n), AI principles (CS221), stochastic control for finance (CME241), and mechatronics (ME210).
+          </p>
+        </article>
+
+        <article class="neu-card">
+          <div class="neu-card__header">
+            <div class="neu-card__header-left">
+              <img src="assets/logos/mcgill.png" alt="McGill University logo" class="neu-card__logo">
+              <h2 class="neu-card__title">McGill University</h2>
+            </div>
+            <span class="neu-card__year">2015</span>
+          </div>
+          <p class="neu-card__role">B.Eng., Chemical Engineering</p>
+          <p class="neu-card__body">
+            Recipient of the Eugenie Ulmer Lamothe Undergraduate Research Scholarship (2014). Montreal, Canada.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         Projects
+         ============================================================ -->
     <section id="projects" class="section">
       <h1 class="section__title">Projects</h1>
       <p class="section__subtitle">A summary of my public GitHub repositories.</p>
