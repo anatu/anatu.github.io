@@ -7,11 +7,10 @@ Personal portfolio website for Anand Natu -- Sr. Product Manager specializing in
 ## How It's Built
 
 - **Static site** -- single `index.html` page with a separate `styles.css` stylesheet. No JavaScript, no build step, no framework.
-- **Neumorphism design system** -- soft UI style with dual box-shadows, warm color palette (`#efe7dd` base, `#b45309` accent), and CSS custom properties for all design tokens. Full spec in `STYLE-GUIDE.md`.
-- **Dark mode** -- automatic via `prefers-color-scheme` media query, overriding the same CSS custom properties.
-- **Responsive** -- single breakpoint at 768px.
-- **Typography** -- [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) (400/600/700) via Google Fonts.
-- **Icons** -- inline SVGs for social links (LinkedIn, Substack, GitHub).
+- **Minimal design** -- content-first, ultra-minimal style. White background, system fonts, 660px narrow column, no decorative elements. Full spec in `STYLE-GUIDE.md`.
+- **Dark mode** -- automatic via `prefers-color-scheme` media query, overriding CSS custom properties.
+- **Responsive** -- single breakpoint at 640px.
+- **Typography** -- system font stack (sans-serif body, Georgia serif for titles). No external font loading.
 - **Hosting** -- GitHub Pages, deployed automatically on push to `main`.
 
 ## Development
@@ -23,6 +22,7 @@ Open `index.html` in a browser to preview locally. To publish, commit and push t
 ```
 index.html          -- Single-page site (About, Experience, Education, Projects)
 styles.css          -- All styling and design tokens
-STYLE-GUIDE.md      -- Neumorphism design system reference
+STYLE-GUIDE.md      -- Minimal design system reference
+CLAUDE.md           -- Claude Code project instructions
 assets/logos/       -- Company and school logo PNGs
 ```
