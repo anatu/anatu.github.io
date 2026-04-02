@@ -4,442 +4,276 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anand Natu</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <nav class="neu-nav">
-    <a href="/" class="neu-nav__logo">AN</a>
-    <div class="neu-nav__links">
-      <a href="#about" class="neu-nav__link">About</a>
-      <a href="#experience" class="neu-nav__link">Experience</a>
-      <a href="#education" class="neu-nav__link">Education</a>
-      <a href="#projects" class="neu-nav__link">Projects</a>
+  <nav class="nav">
+    <a href="/" class="nav__home">Anand Natu</a>
+    <div class="nav__links">
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
     </div>
   </nav>
 
   <main class="container">
 
-    <!-- ============================================================
-         About
-         ============================================================ -->
+    <!-- About -->
     <section id="about" class="section">
-      <h1 class="section__title">Anand Natu</h1>
+      <h1 class="section__title section__title--hero">Anand Natu</h1>
       <p class="section__subtitle">Sr. Product Manager &mdash; AI/ML</p>
 
-      <div class="socials-grid socials-grid--inline">
-
-        <a href="https://www.linkedin.com/in/anand-natu-a5bab688/" target="_blank" rel="noopener" class="social-link">
-          <div class="social-link__icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
-              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-            </svg>
-          </div>
-          <span class="social-link__name">LinkedIn</span>
-        </a>
-
-        <a href="https://substack.com/@anatu" target="_blank" rel="noopener" class="social-link">
-          <div class="social-link__icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
-              <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>
-            </svg>
-          </div>
-          <span class="social-link__name">Substack</span>
-        </a>
-
-        <a href="https://github.com/anatu" target="_blank" rel="noopener" class="social-link">
-          <div class="social-link__icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
-              <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-            </svg>
-          </div>
-          <span class="social-link__name">GitHub</span>
-        </a>
-
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/anand-natu-a5bab688/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://substack.com/@anatu" target="_blank" rel="noopener">Substack</a>
+        <a href="https://github.com/anatu" target="_blank" rel="noopener">GitHub</a>
       </div>
 
-      <div class="neu-card neu-card--wide">
-        <p class="neu-card__body">
-          Product leader with a decade of experience spanning AI/ML product management, applied research, and technology consulting. Currently leading AI/ML initiatives for Reddit's Ads Marketplace &mdash; including content understanding infrastructure, searcher monetization, ads safety modeling, and agentic commerce. Previously drove responsible AI programs at Meta (algorithmic fairness, GenAI labeling strategy) and built brand protection systems at Amazon at billion-product scale. Started in advanced technology consulting at Keystone Strategy, where I was a founding member of the practice area that now drives the majority of firm revenue. Stanford M.S. in Robotics; McGill B.Eng. in Chemical Engineering. Bilingual in English and Spanish.
-        </p>
-      </div>
+      <p class="section__bio">
+        Product leader with a decade of experience spanning AI/ML product management, applied research, and technology consulting. Currently leading AI/ML initiatives for Reddit's Ads Marketplace &mdash; including content understanding infrastructure, searcher monetization, ads safety modeling, and agentic commerce. Previously drove responsible AI programs at Meta (algorithmic fairness, GenAI labeling strategy) and built brand protection systems at Amazon at billion-product scale. Started in advanced technology consulting at Keystone Strategy, where I was a founding member of the practice area that now drives the majority of firm revenue. Stanford M.S. in Robotics; McGill B.Eng. in Chemical Engineering. Bilingual in English and Spanish.
+      </p>
     </section>
 
-    <!-- ============================================================
-         Experience
-         ============================================================ -->
+    <!-- Experience -->
     <section id="experience" class="section">
-      <h1 class="section__title">Experience</h1>
-      <p class="section__subtitle">Professional roles and key contributions.</p>
+      <h2 class="section__title">Experience</h2>
 
-      <div class="experience-list">
-
-        <!-- Reddit -->
-        <article class="neu-card neu-card--wide">
-          <div class="neu-card__header">
-            <div class="neu-card__header-left">
-              <img src="assets/logos/reddit.png" alt="Reddit logo" class="neu-card__logo">
-              <div>
-              <h2 class="neu-card__title">Reddit</h2>
-              <p class="neu-card__role">Sr. Product Manager &mdash; AI/ML, Ads Marketplace</p>
-              </div>
-            </div>
-            <div class="neu-card__meta">
-              <span class="neu-card__year">Oct 2023 &ndash; Present</span>
-              <span class="neu-card__location">San Francisco / New York</span>
-            </div>
+        <article class="role">
+          <div class="role__header">
+            <img src="assets/logos/reddit.png" alt="Reddit" class="role__logo">
+            <h3 class="role__company">Reddit</h3>
           </div>
-          <div class="neu-card__body">
-            <ul class="experience-list__bullets">
-              <li><strong>Ads AI/ML Foundations:</strong> PM for Ads content understanding (infra, modeling, evals) powering content classification across the entire Ads business &mdash; brand safety, entity detection, custom signals (sentiment, commercial intent, contextual relevance), and brand/product insights for advertisers.</li>
-              <li><strong>Searchers Monetization:</strong> Product lead for monetizing high-intent users arriving via search channels like Google (50% of DAU, ~$400M 3-year opportunity). Developed the business case and technical scope; drove +100% CVR / +66% CTR in 2025. Leading applied research in SFT for contextual relevance and commercial intent classification.</li>
-              <li><strong>Ads Safety:</strong> Own all first-party safety modeling &mdash; organic content classification for brand safety &amp; suitability, sensitive ads labeling for age gating and targeting exclusions, and cross-functional alignment on safety definitions and standards.</li>
-              <li><strong>Agentic Commerce (Reddit Answers):</strong> Product lead for the retrieval/ranking backend of organic agentic shopping features. Scoped the full retrieval flow including data acquisition, an LLM-powered product selection system, and guardrails for grounding, sentiment, and safety.</li>
-            </ul>
-          </div>
+          <p class="role__title">Sr. Product Manager &mdash; AI/ML, Ads Marketplace</p>
+          <p class="role__meta">Oct 2023 &ndash; Present &middot; San Francisco / New York</p>
+          <ul class="role__bullets">
+            <li><strong>Ads AI/ML Foundations:</strong> PM for Ads content understanding (infra, modeling, evals) powering content classification across the entire Ads business &mdash; brand safety, entity detection, custom signals (sentiment, commercial intent, contextual relevance), and brand/product insights for advertisers.</li>
+            <li><strong>Searchers Monetization:</strong> Product lead for monetizing high-intent users arriving via search channels like Google (50% of DAU, ~$400M 3-year opportunity). Developed the business case and technical scope; drove +100% CVR / +66% CTR in 2025. Leading applied research in SFT for contextual relevance and commercial intent classification.</li>
+            <li><strong>Ads Safety:</strong> Own all first-party safety modeling &mdash; organic content classification for brand safety &amp; suitability, sensitive ads labeling for age gating and targeting exclusions, and cross-functional alignment on safety definitions and standards.</li>
+            <li><strong>Agentic Commerce (Reddit Answers):</strong> Product lead for the retrieval/ranking backend of organic agentic shopping features. Scoped the full retrieval flow including data acquisition, an LLM-powered product selection system, and guardrails for grounding, sentiment, and safety.</li>
+          </ul>
         </article>
 
-        <!-- Meta -->
-        <article class="neu-card neu-card--wide">
-          <div class="neu-card__header">
-            <div class="neu-card__header-left">
-              <img src="assets/logos/meta.png" alt="Meta logo" class="neu-card__logo">
-              <div>
-              <h2 class="neu-card__title">Meta</h2>
-              <p class="neu-card__role">Sr. Product Manager &mdash; Meta AI Research (Responsible AI)</p>
-              </div>
-            </div>
-            <div class="neu-card__meta">
-              <span class="neu-card__year">Apr 2022 &ndash; Oct 2023</span>
-              <span class="neu-card__location">Menlo Park, CA</span>
-            </div>
+        <article class="role">
+          <div class="role__header">
+            <img src="assets/logos/meta.png" alt="Meta" class="role__logo">
+            <h3 class="role__company">Meta</h3>
           </div>
-          <div class="neu-card__body">
-            <ul class="experience-list__bullets">
-              <li><strong>Algorithmic Fairness Mitigations:</strong> Led R&amp;D and built an internal toolset to implement privacy-robust fairness mitigations (noise cancellation, hierarchical methods, reweighting/resampling) into AI use cases across the Family of Apps (FB, IG, WA). Supported the launch of the Variance Reduction System (VRS) to produce fair outcomes in sensitive ads (HEC) delivery for race subgroups.</li>
-              <li><strong>GenAI Labeling:</strong> Developed a company-wide strategy for responsible use of GenAI for data labeling (nine-figure efficiency opportunity). Formulated policy &amp; legal stance and led applied research. Delivered &gt;50% OpEx reduction on critical use cases with no significant degradation on fairness or quality metrics.</li>
-            </ul>
-          </div>
+          <p class="role__title">Sr. Product Manager &mdash; Meta AI Research (Responsible AI)</p>
+          <p class="role__meta">Apr 2022 &ndash; Oct 2023 &middot; Menlo Park, CA</p>
+          <ul class="role__bullets">
+            <li><strong>Algorithmic Fairness Mitigations:</strong> Led R&amp;D and built an internal toolset to implement privacy-robust fairness mitigations (noise cancellation, hierarchical methods, reweighting/resampling) into AI use cases across the Family of Apps (FB, IG, WA). Supported the launch of the Variance Reduction System (VRS) to produce fair outcomes in sensitive ads (HEC) delivery for race subgroups.</li>
+            <li><strong>GenAI Labeling:</strong> Developed a company-wide strategy for responsible use of GenAI for data labeling (nine-figure efficiency opportunity). Formulated policy &amp; legal stance and led applied research. Delivered &gt;50% OpEx reduction on critical use cases with no significant degradation on fairness or quality metrics.</li>
+          </ul>
         </article>
 
-        <!-- Amazon -->
-        <article class="neu-card neu-card--wide">
-          <div class="neu-card__header">
-            <div class="neu-card__header-left">
-              <img src="assets/logos/amazon.png" alt="Amazon logo" class="neu-card__logo">
-              <div>
-              <h2 class="neu-card__title">Amazon</h2>
-              <p class="neu-card__role">Sr. Technical Product Manager &mdash; Brand Protection (Brand Registry)</p>
-              </div>
-            </div>
-            <div class="neu-card__meta">
-              <span class="neu-card__year">Jun 2020 &ndash; Apr 2022</span>
-              <span class="neu-card__location">Seattle, WA</span>
-            </div>
+        <article class="role">
+          <div class="role__header">
+            <img src="assets/logos/amazon.png" alt="Amazon" class="role__logo">
+            <h3 class="role__company">Amazon</h3>
           </div>
-          <div class="neu-card__body">
-            <ul class="experience-list__bullets">
-              <li><strong>Automated Brand Detection:</strong> Owned Amazon's brand identification system for &gt;3B products (ASINs) in the Consumer catalog, driving all brand tools and catalog protection features. Scaled coverage from 60% to 92% of traffic. Developed ML clustering models to increase labeling efficiency by ~47x.</li>
-              <li><strong>Brand Self-Service Identification:</strong> Business owner for worldwide launch of Brand Registry's first self-service permissions management tool for ~10M third-party brand owners. Eliminated 1.4k support contacts per week and reduced average onboarding time by 11 days.</li>
-            </ul>
-          </div>
+          <p class="role__title">Sr. Technical Product Manager &mdash; Brand Protection (Brand Registry)</p>
+          <p class="role__meta">Jun 2020 &ndash; Apr 2022 &middot; Seattle, WA</p>
+          <ul class="role__bullets">
+            <li><strong>Automated Brand Detection:</strong> Owned Amazon's brand identification system for &gt;3B products (ASINs) in the Consumer catalog, driving all brand tools and catalog protection features. Scaled coverage from 60% to 92% of traffic. Developed ML clustering models to increase labeling efficiency by ~47x.</li>
+            <li><strong>Brand Self-Service Identification:</strong> Business owner for worldwide launch of Brand Registry's first self-service permissions management tool for ~10M third-party brand owners. Eliminated 1.4k support contacts per week and reduced average onboarding time by 11 days.</li>
+          </ul>
         </article>
 
-        <!-- Keystone -->
-        <article class="neu-card neu-card--wide">
-          <div class="neu-card__header">
-            <div class="neu-card__header-left">
-              <img src="assets/logos/keystone.png" alt="Keystone Strategy logo" class="neu-card__logo">
-              <div>
-              <h2 class="neu-card__title">Keystone Strategy</h2>
-              <p class="neu-card__role">Sr. Consultant</p>
-              </div>
-            </div>
-            <div class="neu-card__meta">
-              <span class="neu-card__year">2015 &ndash; 2020</span>
-              <span class="neu-card__location">New York, NY</span>
-            </div>
+        <article class="role">
+          <div class="role__header">
+            <img src="assets/logos/keystone.png" alt="Keystone Strategy" class="role__logo">
+            <h3 class="role__company">Keystone Strategy</h3>
           </div>
-          <div class="neu-card__body">
-            <p>Founding member of the K.ATS practice area for advanced technology consulting, which today drives &gt;80% of firm revenue. Projects spanned product ops and go-to-market strategy, IP &amp; technology valuation (fair use, transfer pricing), and commercial litigation support across industries including AAA game publishing, enterprise software, social media, travel, and biotechnology. Full-time from 2015&ndash;2018, continuing part-time through Stanford (2018&ndash;2020).</p>
-          </div>
+          <p class="role__title">Sr. Consultant</p>
+          <p class="role__meta">2015 &ndash; 2020 &middot; New York, NY</p>
+          <p class="role__body">Founding member of the K.ATS practice area for advanced technology consulting, which today drives &gt;80% of firm revenue. Projects spanned product ops and go-to-market strategy, IP &amp; technology valuation (fair use, transfer pricing), and commercial litigation support across industries including AAA game publishing, enterprise software, social media, travel, and biotechnology. Full-time from 2015&ndash;2018, continuing part-time through Stanford (2018&ndash;2020).</p>
         </article>
 
-      </div>
     </section>
 
-    <!-- ============================================================
-         Education
-         ============================================================ -->
+    <!-- Education -->
     <section id="education" class="section">
-      <h1 class="section__title">Education</h1>
-      <p class="section__subtitle">Academic background.</p>
+      <h2 class="section__title">Education</h2>
 
-      <div class="education-grid">
-
-        <article class="neu-card">
-          <div class="neu-card__header">
-            <div class="neu-card__header-left">
-              <img src="assets/logos/stanford.png" alt="Stanford University logo" class="neu-card__logo">
-              <h2 class="neu-card__title">Stanford University</h2>
-            </div>
-            <span class="neu-card__year">2020</span>
+        <article class="edu">
+          <div class="edu__header">
+            <img src="assets/logos/stanford.png" alt="Stanford" class="edu__logo">
+            <h3 class="edu__school">Stanford University</h3>
           </div>
-          <p class="neu-card__role">M.S., Robotics</p>
-          <p class="neu-card__body">
+          <p class="edu__degree">M.S., Robotics</p>
+          <p class="edu__meta">2020</p>
+          <p class="edu__body">
             Concentration in mechatronics, deep reinforcement learning, computer vision, and planning. Coursework included optimal control (AA203), convolutional neural networks (CS231n), AI principles (CS221), stochastic control for finance (CME241), and mechatronics (ME210).
           </p>
         </article>
 
-        <article class="neu-card">
-          <div class="neu-card__header">
-            <div class="neu-card__header-left">
-              <img src="assets/logos/mcgill.png" alt="McGill University logo" class="neu-card__logo">
-              <h2 class="neu-card__title">McGill University</h2>
-            </div>
-            <span class="neu-card__year">2015</span>
+        <article class="edu">
+          <div class="edu__header">
+            <img src="assets/logos/mcgill.png" alt="McGill" class="edu__logo">
+            <h3 class="edu__school">McGill University</h3>
           </div>
-          <p class="neu-card__role">B.Eng., Chemical Engineering</p>
-          <p class="neu-card__body">
+          <p class="edu__degree">B.Eng., Chemical Engineering</p>
+          <p class="edu__meta">2015</p>
+          <p class="edu__body">
             Recipient of the Eugenie Ulmer Lamothe Undergraduate Research Scholarship (2014). Montreal, Canada.
           </p>
         </article>
 
-      </div>
     </section>
 
-    <!-- ============================================================
-         Projects
-         ============================================================ -->
+    <!-- Projects -->
     <section id="projects" class="section">
-      <h1 class="section__title">Projects</h1>
-      <p class="section__subtitle">A summary of my public GitHub repositories.</p>
+      <h2 class="section__title">Projects</h2>
 
-      <div class="project-grid">
-
-        <!-- pi0 -->
-        <article class="neu-card">
-          <div class="neu-card__header">
-            <h2 class="neu-card__title">pi0</h2>
-            <span class="neu-card__year">2026</span>
+        <article class="project">
+          <div class="project__header">
+            <h3 class="project__name"><a href="https://github.com/anatu/pi0" target="_blank" rel="noopener">pi0</a></h3>
+            <span class="project__year">2026</span>
           </div>
-          <div class="neu-card__tags">
-            <span class="neu-tag">Python</span>
-            <span class="neu-tag">PyTorch</span>
-            <span class="neu-tag">Robotics</span>
-          </div>
-          <p class="neu-card__body">
+          <p class="project__tags">Python · PyTorch · Robotics</p>
+          <p class="project__body">
             A research reimplementation of the pi0 Vision-Language-Action (VLA) flow model from Physical Intelligence, scaled down for single-GPU training and simulation validation. Turns a pre-trained Vision-Language Model into a robot controller by generating continuous actions through flow matching rather than autoregressive token prediction (~87M trainable parameters).
           </p>
-          <a href="https://github.com/anatu/pi0" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
         </article>
 
-        <!-- miniVLA -->
-        <article class="neu-card">
-          <div class="neu-card__header">
-            <h2 class="neu-card__title">miniVLA</h2>
-            <span class="neu-card__year">2026</span>
+        <article class="project">
+          <div class="project__header">
+            <h3 class="project__name"><a href="https://github.com/anatu/miniVLA" target="_blank" rel="noopener">miniVLA</a></h3>
+            <span class="project__year">2026</span>
           </div>
-          <div class="neu-card__tags">
-            <span class="neu-tag">Python</span>
-            <span class="neu-tag">PyTorch</span>
-            <span class="neu-tag">Robotics</span>
-          </div>
-          <p class="neu-card__body">
+          <p class="project__tags">Python · PyTorch · Robotics</p>
+          <p class="project__body">
             A small-scale proof-of-concept Vision-Language-Action model built from scratch. Combines a GRU text encoder, CNN image encoder, and MLP state encoder with a diffusion policy head (DDPM) to output robot actions conditioned on fused language, vision, and state inputs.
           </p>
-          <a href="https://github.com/anatu/miniVLA" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
         </article>
 
-        <!-- evals-substack -->
-        <article class="neu-card">
-          <div class="neu-card__header">
-            <h2 class="neu-card__title">evals-substack</h2>
-            <span class="neu-card__year">2026</span>
+        <article class="project">
+          <div class="project__header">
+            <h3 class="project__name"><a href="https://github.com/anatu/evals-substack" target="_blank" rel="noopener">evals-substack</a></h3>
+            <span class="project__year">2026</span>
           </div>
-          <div class="neu-card__tags">
-            <span class="neu-tag">Python</span>
-            <span class="neu-tag">LLM Evals</span>
-          </div>
-          <p class="neu-card__body">
+          <p class="project__tags">Python · LLM Evals</p>
+          <p class="project__body">
             Companion code for Substack posts about AI/LLM evaluation methods. Contains self-contained simulation pipelines that demonstrate how different evaluation metrics work &mdash; exact match, functional correctness, pass@k, and reference similarity &mdash; using synthetic data and from-scratch implementations with publication-quality visualizations.
           </p>
-          <a href="https://github.com/anatu/evals-substack" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
         </article>
 
-        <!-- AA203 -->
-        <article class="neu-card">
-          <div class="neu-card__header">
-            <h2 class="neu-card__title">AA203-Project-Spring19</h2>
-            <span class="neu-card__year">2019</span>
+        <article class="project">
+          <div class="project__header">
+            <h3 class="project__name"><a href="https://github.com/anatu/AA203-Project-Spring19" target="_blank" rel="noopener">AA203-Project-Spring19</a></h3>
+            <span class="project__year">2019</span>
           </div>
-          <div class="neu-card__tags">
-            <span class="neu-tag">Python</span>
-            <span class="neu-tag">Controls</span>
-          </div>
-          <p class="neu-card__body">
+          <p class="project__tags">Python · Controls</p>
+          <p class="project__body">
             Final project for Stanford's AA203 (Optimal and Learning-Based Control). Implements Model-Predictive Control (MPC) for trajectory tracking, combining optimization-based planning with real-time control execution.
           </p>
-          <a href="https://github.com/anatu/AA203-Project-Spring19" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
         </article>
 
-        <!-- CS231n Project -->
-        <article class="neu-card">
-          <div class="neu-card__header">
-            <h2 class="neu-card__title">CS231n-Project-2019</h2>
-            <span class="neu-card__year">2019</span>
+        <article class="project">
+          <div class="project__header">
+            <h3 class="project__name"><a href="https://github.com/anatu/CS231n-Project-2019" target="_blank" rel="noopener">CS231n-Project-2019</a></h3>
+            <span class="project__year">2019</span>
           </div>
-          <div class="neu-card__tags">
-            <span class="neu-tag">Python</span>
-            <span class="neu-tag">PyTorch</span>
-            <span class="neu-tag">Computer Vision</span>
-          </div>
-          <p class="neu-card__body">
+          <p class="project__tags">Python · PyTorch · Computer Vision</p>
+          <p class="project__body">
             Final project for Stanford's CS231n (CNNs for Visual Recognition). A waste/trash image classification system using transfer learning with deep CNNs &mdash; fine-tuning pretrained MobileNetV2, ResNet101, and VGG architectures on the TrashNet dataset for automated recycling and sorting applications.
           </p>
-          <a href="https://github.com/anatu/CS231n-Project-2019" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
         </article>
 
-        <!-- CS231n Assignments -->
-        <article class="neu-card">
-          <div class="neu-card__header">
-            <h2 class="neu-card__title">CS231n-Assignments</h2>
-            <span class="neu-card__year">2019</span>
+        <article class="project">
+          <div class="project__header">
+            <h3 class="project__name"><a href="https://github.com/anatu/CS231n-Assignments" target="_blank" rel="noopener">CS231n-Assignments</a></h3>
+            <span class="project__year">2019</span>
           </div>
-          <div class="neu-card__tags">
-            <span class="neu-tag">Python</span>
-            <span class="neu-tag">Deep Learning</span>
-          </div>
-          <p class="neu-card__body">
+          <p class="project__tags">Python · Deep Learning</p>
+          <p class="project__body">
             Completed programming assignments for Stanford's CS231n (CNNs for Visual Recognition). Covers the progression from basic classifiers (kNN, SVM, Softmax) through two-layer neural networks to full deep learning architectures, with implementations in Jupyter notebooks.
           </p>
-          <a href="https://github.com/anatu/CS231n-Assignments" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
         </article>
 
-        <!-- E-Cue -->
-        <article class="neu-card">
-          <div class="neu-card__header">
-            <h2 class="neu-card__title">E-Cue</h2>
-            <span class="neu-card__year">2019</span>
+        <article class="project">
+          <div class="project__header">
+            <h3 class="project__name"><a href="https://github.com/anatu/E-Cue" target="_blank" rel="noopener">E-Cue</a></h3>
+            <span class="project__year">2019</span>
           </div>
-          <div class="neu-card__tags">
-            <span class="neu-tag">Unity / C#</span>
-            <span class="neu-tag">Python</span>
-            <span class="neu-tag">OpenCV</span>
-          </div>
-          <p class="neu-card__body">
+          <p class="project__tags">Unity / C# · Python · OpenCV</p>
+          <p class="project__body">
             Final project for Stanford ME310 (Engineering Design Entrepreneurship). An interactive Unity experience where head-nod gestures &mdash; detected via webcam using OpenCV face detection and Lucas-Kanade optical flow &mdash; trigger scene transitions and character interactions in real time over UDP.
           </p>
-          <a href="https://github.com/anatu/E-Cue" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
         </article>
 
-        <!-- ME210 -->
-        <article class="neu-card">
-          <div class="neu-card__header">
-            <h2 class="neu-card__title">ME210-W2020</h2>
-            <span class="neu-card__year">2020</span>
+        <article class="project">
+          <div class="project__header">
+            <h3 class="project__name"><a href="https://github.com/anatu/ME210-W2020" target="_blank" rel="noopener">ME210-W2020</a></h3>
+            <span class="project__year">2020</span>
           </div>
-          <div class="neu-card__tags">
-            <span class="neu-tag">C++</span>
-            <span class="neu-tag">Arduino</span>
-            <span class="neu-tag">Mechatronics</span>
-          </div>
-          <p class="neu-card__body">
+          <p class="project__tags">C++ · Arduino · Mechatronics</p>
+          <p class="project__body">
             Project for Stanford's ME210 (Introduction to Mechatronics). An autonomous competition robot built on PlatformIO/Arduino, using line-following sensors, IR detection, and DC motor control with encoder feedback to navigate an arena and execute timed attack maneuvers.
           </p>
-          <a href="https://github.com/anatu/ME210-W2020" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
         </article>
 
-        <!-- CME241 -->
-        <article class="neu-card">
-          <div class="neu-card__header">
-            <h2 class="neu-card__title">Stanford-CME241-W2020</h2>
-            <span class="neu-card__year">2020</span>
+        <article class="project">
+          <div class="project__header">
+            <h3 class="project__name"><a href="https://github.com/anatu/Stanford-CME241-W2020" target="_blank" rel="noopener">Stanford-CME241-W2020</a></h3>
+            <span class="project__year">2020</span>
           </div>
-          <div class="neu-card__tags">
-            <span class="neu-tag">Python</span>
-            <span class="neu-tag">RL</span>
-            <span class="neu-tag">Finance</span>
-          </div>
-          <p class="neu-card__body">
+          <p class="project__tags">Python · RL · Finance</p>
+          <p class="project__body">
             Coursework for Stanford's CME241 (Stochastic Control and Reinforcement Learning for Finance). Explores the application of RL techniques to financial decision-making problems including portfolio optimization and derivatives pricing.
           </p>
-          <a href="https://github.com/anatu/Stanford-CME241-W2020" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
         </article>
 
-        <!-- CS221 -->
-        <article class="neu-card">
-          <div class="neu-card__header">
-            <h2 class="neu-card__title">CS221-Fall2018</h2>
-            <span class="neu-card__year">2018</span>
+        <article class="project">
+          <div class="project__header">
+            <h3 class="project__name"><a href="https://github.com/anatu/CS221-Fall2018" target="_blank" rel="noopener">CS221-Fall2018</a></h3>
+            <span class="project__year">2018</span>
           </div>
-          <div class="neu-card__tags">
-            <span class="neu-tag">Python</span>
-            <span class="neu-tag">AI</span>
-          </div>
-          <p class="neu-card__body">
+          <p class="project__tags">Python · AI</p>
+          <p class="project__body">
             Homework assignments for Stanford's CS221 (AI: Principles and Techniques). Covers foundational AI topics including sentiment analysis, text reconstruction, reinforcement learning (Blackjack), game-playing agents (Pacman), constraint satisfaction (scheduling), car tracking, and logical inference.
           </p>
-          <a href="https://github.com/anatu/CS221-Fall2018" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
         </article>
 
-        <!-- stonks -->
-        <article class="neu-card">
-          <div class="neu-card__header">
-            <h2 class="neu-card__title">stonks</h2>
-            <span class="neu-card__year">2018</span>
+        <article class="project">
+          <div class="project__header">
+            <h3 class="project__name"><a href="https://github.com/anatu/stonks" target="_blank" rel="noopener">stonks</a></h3>
+            <span class="project__year">2018</span>
           </div>
-          <div class="neu-card__tags">
-            <span class="neu-tag">Python</span>
-            <span class="neu-tag">Finance</span>
-          </div>
-          <p class="neu-card__body">
+          <p class="project__tags">Python · Finance</p>
+          <p class="project__body">
             A personal stock analysis toolkit that computes technical indicators (moving average regime detection, on-balance volume, MACD) from scratch on stock price data. Generates buy/sell signal reports and can email them automatically, with Robinhood integration.
           </p>
-          <a href="https://github.com/anatu/stonks" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
         </article>
 
-        <!-- Gamedata_scrape -->
-        <article class="neu-card">
-          <div class="neu-card__header">
-            <h2 class="neu-card__title">Gamedata_scrape</h2>
-            <span class="neu-card__year">2017</span>
+        <article class="project">
+          <div class="project__header">
+            <h3 class="project__name"><a href="https://github.com/anatu/Gamedata_scrape" target="_blank" rel="noopener">Gamedata_scrape</a></h3>
+            <span class="project__year">2017</span>
           </div>
-          <div class="neu-card__tags">
-            <span class="neu-tag">Python</span>
-            <span class="neu-tag">Scrapy</span>
-          </div>
-          <p class="neu-card__body">
+          <p class="project__tags">Python · Scrapy</p>
+          <p class="project__body">
             A set of web scraping tools for extracting metadata about videogames across all major platforms from several aggregator websites. Built with the Scrapy library for structuring scraping spiders and item processing pipelines.
           </p>
-          <a href="https://github.com/anatu/Gamedata_scrape" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
         </article>
 
-        <!-- ML_working -->
-        <article class="neu-card">
-          <div class="neu-card__header">
-            <h2 class="neu-card__title">ML_working</h2>
-            <span class="neu-card__year">2017</span>
+        <article class="project">
+          <div class="project__header">
+            <h3 class="project__name"><a href="https://github.com/anatu/ML_working" target="_blank" rel="noopener">ML_working</a></h3>
+            <span class="project__year">2017</span>
           </div>
-          <div class="neu-card__tags">
-            <span class="neu-tag">Python</span>
-            <span class="neu-tag">ML</span>
-          </div>
-          <p class="neu-card__body">
+          <p class="project__tags">Python · ML</p>
+          <p class="project__body">
             Miscellaneous regression and classification models for machine learning, developed as part of a Udemy Data Science and ML in Python course. Covers fundamental ML techniques and hands-on model building.
           </p>
-          <a href="https://github.com/anatu/ML_working" class="neu-card__link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
         </article>
 
-      </div>
     </section>
 
   </main>
 
-  <footer class="neu-footer">
+  <footer class="footer">
     <p>&copy; 2026 Anand Natu</p>
   </footer>
 
