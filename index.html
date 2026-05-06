@@ -13,7 +13,7 @@
     <div class="nav__links">
       <a href="#experience">Experience</a>
       <a href="#education">Education</a>
-      <a href="#projects">Projects</a>
+      <a href="/viz/">Viz</a>
     </div>
   </nav>
 
@@ -22,17 +22,12 @@
     <!-- About -->
     <section id="about" class="section">
       <h1 class="section__title section__title--hero">Anand Natu</h1>
-      <p class="section__subtitle">Sr. Product Manager &mdash; AI/ML</p>
 
       <div class="socials">
         <a href="https://www.linkedin.com/in/anand-natu-a5bab688/" target="_blank" rel="noopener">LinkedIn</a>
         <a href="https://substack.com/@anatu" target="_blank" rel="noopener">Substack</a>
         <a href="https://github.com/anatu" target="_blank" rel="noopener">GitHub</a>
       </div>
-
-      <p class="section__bio">
-        Product leader with a decade of experience spanning AI/ML product management, applied research, and technology consulting. Currently leading AI/ML initiatives for Reddit's Ads Marketplace &mdash; including content understanding infrastructure, searcher monetization, ads safety modeling, and agentic commerce. Previously drove responsible AI programs at Meta (algorithmic fairness, GenAI labeling strategy) and built brand protection systems at Amazon at billion-product scale. Started in advanced technology consulting at Keystone Strategy, where I was a founding member of the practice area that now drives the majority of firm revenue. Stanford M.S. in Robotics; McGill B.Eng. in Chemical Engineering. Bilingual in English and Spanish.
-      </p>
     </section>
 
     <!-- Experience -->
@@ -46,12 +41,6 @@
           </div>
           <p class="role__title">Sr. Product Manager &mdash; AI/ML, Ads Marketplace</p>
           <p class="role__meta">Oct 2023 &ndash; Present &middot; San Francisco / New York</p>
-          <ul class="role__bullets">
-            <li><strong>Ads AI/ML Foundations:</strong> PM for Ads content understanding (infra, modeling, evals) powering content classification across the entire Ads business &mdash; brand safety, entity detection, custom signals (sentiment, commercial intent, contextual relevance), and brand/product insights for advertisers.</li>
-            <li><strong>Searchers Monetization:</strong> Product lead for monetizing high-intent users arriving via search channels like Google (50% of DAU, ~$400M 3-year opportunity). Developed the business case and technical scope; drove +100% CVR / +66% CTR in 2025. Leading applied research in SFT for contextual relevance and commercial intent classification.</li>
-            <li><strong>Ads Safety:</strong> Own all first-party safety modeling &mdash; organic content classification for brand safety &amp; suitability, sensitive ads labeling for age gating and targeting exclusions, and cross-functional alignment on safety definitions and standards.</li>
-            <li><strong>Agentic Commerce (Reddit Answers):</strong> Product lead for the retrieval/ranking backend of organic agentic shopping features. Scoped the full retrieval flow including data acquisition, an LLM-powered product selection system, and guardrails for grounding, sentiment, and safety.</li>
-          </ul>
         </article>
 
         <article class="role">
@@ -61,10 +50,6 @@
           </div>
           <p class="role__title">Sr. Product Manager &mdash; Meta AI Research (Responsible AI)</p>
           <p class="role__meta">Apr 2022 &ndash; Oct 2023 &middot; Menlo Park, CA</p>
-          <ul class="role__bullets">
-            <li><strong>Algorithmic Fairness Mitigations:</strong> Led R&amp;D and built an internal toolset to implement privacy-robust fairness mitigations (noise cancellation, hierarchical methods, reweighting/resampling) into AI use cases across the Family of Apps (FB, IG, WA). Supported the launch of the Variance Reduction System (VRS) to produce fair outcomes in sensitive ads (HEC) delivery for race subgroups.</li>
-            <li><strong>GenAI Labeling:</strong> Developed a company-wide strategy for responsible use of GenAI for data labeling (nine-figure efficiency opportunity). Formulated policy &amp; legal stance and led applied research. Delivered &gt;50% OpEx reduction on critical use cases with no significant degradation on fairness or quality metrics.</li>
-          </ul>
         </article>
 
         <article class="role">
@@ -74,10 +59,6 @@
           </div>
           <p class="role__title">Sr. Technical Product Manager &mdash; Brand Protection (Brand Registry)</p>
           <p class="role__meta">Jun 2020 &ndash; Apr 2022 &middot; Seattle, WA</p>
-          <ul class="role__bullets">
-            <li><strong>Automated Brand Detection:</strong> Owned Amazon's brand identification system for &gt;3B products (ASINs) in the Consumer catalog, driving all brand tools and catalog protection features. Scaled coverage from 60% to 92% of traffic. Developed ML clustering models to increase labeling efficiency by ~47x.</li>
-            <li><strong>Brand Self-Service Identification:</strong> Business owner for worldwide launch of Brand Registry's first self-service permissions management tool for ~10M third-party brand owners. Eliminated 1.4k support contacts per week and reduced average onboarding time by 11 days.</li>
-          </ul>
         </article>
 
         <article class="role">
@@ -87,7 +68,6 @@
           </div>
           <p class="role__title">Sr. Consultant</p>
           <p class="role__meta">2015 &ndash; 2020 &middot; New York, NY</p>
-          <p class="role__body">Founding member of the K.ATS practice area for advanced technology consulting, which today drives &gt;80% of firm revenue. Projects spanned product ops and go-to-market strategy, IP &amp; technology valuation (fair use, transfer pricing), and commercial litigation support across industries including AAA game publishing, enterprise software, social media, travel, and biotechnology. Full-time from 2015&ndash;2018, continuing part-time through Stanford (2018&ndash;2020).</p>
         </article>
 
     </section>
@@ -117,155 +97,6 @@
           <p class="edu__meta">2015</p>
           <p class="edu__body">
             Recipient of the Eugenie Ulmer Lamothe Undergraduate Research Scholarship (2014). Montreal, Canada.
-          </p>
-        </article>
-
-    </section>
-
-    <!-- Projects -->
-    <section id="projects" class="section">
-      <h2 class="section__title">Projects</h2>
-
-        <article class="project">
-          <div class="project__header">
-            <h3 class="project__name"><a href="https://github.com/anatu/pi0" target="_blank" rel="noopener">pi0</a></h3>
-            <span class="project__year">2026</span>
-          </div>
-          <p class="project__tags">Python · PyTorch · Robotics</p>
-          <p class="project__body">
-            A research reimplementation of the pi0 Vision-Language-Action (VLA) flow model from Physical Intelligence, scaled down for single-GPU training and simulation validation. Turns a pre-trained Vision-Language Model into a robot controller by generating continuous actions through flow matching rather than autoregressive token prediction (~87M trainable parameters).
-          </p>
-        </article>
-
-        <article class="project">
-          <div class="project__header">
-            <h3 class="project__name"><a href="https://github.com/anatu/miniVLA" target="_blank" rel="noopener">miniVLA</a></h3>
-            <span class="project__year">2026</span>
-          </div>
-          <p class="project__tags">Python · PyTorch · Robotics</p>
-          <p class="project__body">
-            A small-scale proof-of-concept Vision-Language-Action model built from scratch. Combines a GRU text encoder, CNN image encoder, and MLP state encoder with a diffusion policy head (DDPM) to output robot actions conditioned on fused language, vision, and state inputs.
-          </p>
-        </article>
-
-        <article class="project">
-          <div class="project__header">
-            <h3 class="project__name"><a href="https://github.com/anatu/evals-substack" target="_blank" rel="noopener">evals-substack</a></h3>
-            <span class="project__year">2026</span>
-          </div>
-          <p class="project__tags">Python · LLM Evals</p>
-          <p class="project__body">
-            Companion code for Substack posts about AI/LLM evaluation methods. Contains self-contained simulation pipelines that demonstrate how different evaluation metrics work &mdash; exact match, functional correctness, pass@k, and reference similarity &mdash; using synthetic data and from-scratch implementations with publication-quality visualizations.
-          </p>
-        </article>
-
-        <article class="project">
-          <div class="project__header">
-            <h3 class="project__name"><a href="https://github.com/anatu/AA203-Project-Spring19" target="_blank" rel="noopener">AA203-Project-Spring19</a></h3>
-            <span class="project__year">2019</span>
-          </div>
-          <p class="project__tags">Python · Controls</p>
-          <p class="project__body">
-            Final project for Stanford's AA203 (Optimal and Learning-Based Control). Implements Model-Predictive Control (MPC) for trajectory tracking, combining optimization-based planning with real-time control execution.
-          </p>
-        </article>
-
-        <article class="project">
-          <div class="project__header">
-            <h3 class="project__name"><a href="https://github.com/anatu/CS231n-Project-2019" target="_blank" rel="noopener">CS231n-Project-2019</a></h3>
-            <span class="project__year">2019</span>
-          </div>
-          <p class="project__tags">Python · PyTorch · Computer Vision</p>
-          <p class="project__body">
-            Final project for Stanford's CS231n (CNNs for Visual Recognition). A waste/trash image classification system using transfer learning with deep CNNs &mdash; fine-tuning pretrained MobileNetV2, ResNet101, and VGG architectures on the TrashNet dataset for automated recycling and sorting applications.
-          </p>
-        </article>
-
-        <article class="project">
-          <div class="project__header">
-            <h3 class="project__name"><a href="https://github.com/anatu/CS231n-Assignments" target="_blank" rel="noopener">CS231n-Assignments</a></h3>
-            <span class="project__year">2019</span>
-          </div>
-          <p class="project__tags">Python · Deep Learning</p>
-          <p class="project__body">
-            Completed programming assignments for Stanford's CS231n (CNNs for Visual Recognition). Covers the progression from basic classifiers (kNN, SVM, Softmax) through two-layer neural networks to full deep learning architectures, with implementations in Jupyter notebooks.
-          </p>
-        </article>
-
-        <article class="project">
-          <div class="project__header">
-            <h3 class="project__name"><a href="https://github.com/anatu/E-Cue" target="_blank" rel="noopener">E-Cue</a></h3>
-            <span class="project__year">2019</span>
-          </div>
-          <p class="project__tags">Unity / C# · Python · OpenCV</p>
-          <p class="project__body">
-            Final project for Stanford ME310 (Engineering Design Entrepreneurship). An interactive Unity experience where head-nod gestures &mdash; detected via webcam using OpenCV face detection and Lucas-Kanade optical flow &mdash; trigger scene transitions and character interactions in real time over UDP.
-          </p>
-        </article>
-
-        <article class="project">
-          <div class="project__header">
-            <h3 class="project__name"><a href="https://github.com/anatu/ME210-W2020" target="_blank" rel="noopener">ME210-W2020</a></h3>
-            <span class="project__year">2020</span>
-          </div>
-          <p class="project__tags">C++ · Arduino · Mechatronics</p>
-          <p class="project__body">
-            Project for Stanford's ME210 (Introduction to Mechatronics). An autonomous competition robot built on PlatformIO/Arduino, using line-following sensors, IR detection, and DC motor control with encoder feedback to navigate an arena and execute timed attack maneuvers.
-          </p>
-        </article>
-
-        <article class="project">
-          <div class="project__header">
-            <h3 class="project__name"><a href="https://github.com/anatu/Stanford-CME241-W2020" target="_blank" rel="noopener">Stanford-CME241-W2020</a></h3>
-            <span class="project__year">2020</span>
-          </div>
-          <p class="project__tags">Python · RL · Finance</p>
-          <p class="project__body">
-            Coursework for Stanford's CME241 (Stochastic Control and Reinforcement Learning for Finance). Explores the application of RL techniques to financial decision-making problems including portfolio optimization and derivatives pricing.
-          </p>
-        </article>
-
-        <article class="project">
-          <div class="project__header">
-            <h3 class="project__name"><a href="https://github.com/anatu/CS221-Fall2018" target="_blank" rel="noopener">CS221-Fall2018</a></h3>
-            <span class="project__year">2018</span>
-          </div>
-          <p class="project__tags">Python · AI</p>
-          <p class="project__body">
-            Homework assignments for Stanford's CS221 (AI: Principles and Techniques). Covers foundational AI topics including sentiment analysis, text reconstruction, reinforcement learning (Blackjack), game-playing agents (Pacman), constraint satisfaction (scheduling), car tracking, and logical inference.
-          </p>
-        </article>
-
-        <article class="project">
-          <div class="project__header">
-            <h3 class="project__name"><a href="https://github.com/anatu/stonks" target="_blank" rel="noopener">stonks</a></h3>
-            <span class="project__year">2018</span>
-          </div>
-          <p class="project__tags">Python · Finance</p>
-          <p class="project__body">
-            A personal stock analysis toolkit that computes technical indicators (moving average regime detection, on-balance volume, MACD) from scratch on stock price data. Generates buy/sell signal reports and can email them automatically, with Robinhood integration.
-          </p>
-        </article>
-
-        <article class="project">
-          <div class="project__header">
-            <h3 class="project__name"><a href="https://github.com/anatu/Gamedata_scrape" target="_blank" rel="noopener">Gamedata_scrape</a></h3>
-            <span class="project__year">2017</span>
-          </div>
-          <p class="project__tags">Python · Scrapy</p>
-          <p class="project__body">
-            A set of web scraping tools for extracting metadata about videogames across all major platforms from several aggregator websites. Built with the Scrapy library for structuring scraping spiders and item processing pipelines.
-          </p>
-        </article>
-
-        <article class="project">
-          <div class="project__header">
-            <h3 class="project__name"><a href="https://github.com/anatu/ML_working" target="_blank" rel="noopener">ML_working</a></h3>
-            <span class="project__year">2017</span>
-          </div>
-          <p class="project__tags">Python · ML</p>
-          <p class="project__body">
-            Miscellaneous regression and classification models for machine learning, developed as part of a Udemy Data Science and ML in Python course. Covers fundamental ML techniques and hands-on model building.
           </p>
         </article>
 
