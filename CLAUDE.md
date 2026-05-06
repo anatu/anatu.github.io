@@ -14,11 +14,13 @@ To publish: commit and `git push origin main`. GitHub Pages deploys automaticall
 
 ## Architecture
 
-- **`index.html`** — Single-page site. Sections: About (with socials), Experience, Education, Projects, Footer. Uses semantic HTML (`<nav>`, `<main>`, `<section>`, `<article>`).
-- **`styles.css`** — All styling. Design tokens defined as CSS custom properties in `:root`. Dark mode via `prefers-color-scheme` media query. Responsive breakpoint at 640px.
+- **`index.html`** — Main single-page site. Sections: About (name + socials), Experience, Education, Footer. Uses semantic HTML (`<nav>`, `<main>`, `<section>`, `<article>`).
+- **`styles.css`** — All styling for the main page. Design tokens defined as CSS custom properties in `:root`. Dark mode via `prefers-color-scheme` media query. Responsive breakpoint at 640px. The viz hub inherits this stylesheet.
 - **`STYLE-GUIDE.md`** — Minimal design system reference. **Read this before making any visual changes.** Defines the color palette, typography, spacing, component patterns, and conventions.
 - **`assets/logos/`** — Company/school logo PNGs used in Experience and Education sections.
 - **`resume.pdf`** — Source material for site content. Excluded from git via `.gitignore`.
+- **`viz/`** — Visualization hub at `/viz/`. Manifest-driven: `viz/index.html` fetches `viz/manifest.json` at runtime and renders one entry per registered viz. Each viz is a self-contained HTML file (or bundled directory) under `viz/pages/`. `viz/_template.html` is the starting point for new vizzes — it inlines its own CSS so each viz works as a standalone artifact.
+- **`.nojekyll`** — Empty marker so GitHub Pages serves underscore-prefixed paths verbatim (needed for `viz/_template.html`).
 
 ## Design System (Minimal)
 
