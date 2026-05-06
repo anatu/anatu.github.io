@@ -19,7 +19,7 @@ To publish: commit and `git push origin main`. GitHub Pages deploys automaticall
 - **`STYLE-GUIDE.md`** — Minimal design system reference. **Read this before making any visual changes.** Defines the color palette, typography, spacing, component patterns, and conventions.
 - **`assets/logos/`** — Company/school logo PNGs used in Experience and Education sections.
 - **`resume.pdf`** — Source material for site content. Excluded from git via `.gitignore`.
-- **`viz/`** — Visualization hub at `/viz/`. Manifest-driven: `viz/index.html` fetches `viz/manifest.json` at runtime and renders one entry per registered viz. Each viz is a self-contained HTML file (or bundled directory) under `viz/pages/`. `viz/_template.html` is the starting point for new vizzes — it inlines its own CSS so each viz works as a standalone artifact.
+- **`viz/`** — Projects hub at `/viz/`. Surfaced on the site as the "Projects" section; the `viz/` path is kept for URL stability and is the directory name only. Manifest-driven: `viz/index.html` fetches `viz/manifest.json` at runtime and renders one entry per registered project. Each project is a self-contained HTML file (or bundled directory) under `viz/pages/`. `viz/_template.html` is the starting point for new projects — it inlines its own CSS so each project page works as a standalone artifact.
 - **`.nojekyll`** — Empty marker so GitHub Pages serves underscore-prefixed paths verbatim (needed for `viz/_template.html`).
 
 ## Design System (Minimal)
