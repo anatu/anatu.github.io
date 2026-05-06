@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "title": "Distribution narrowing under synthetic data contamination",
+    "description": "Does training LLMs on their own previous output erode comprehension of novel linguistic constructions? A multi-seed GPT-2 study finds generation collapses long before comprehension does — until training pressure runs deep enough to break the pretrained buffer.",
+    "file": "pages/linguistic-degradation.html",
+    "version": "1.0",
+    "lastModified": "2026-05-06",
+    "tags": ["llm", "model-collapse", "synthetic-data", "research", "gpt-2"]
+  }
+]
