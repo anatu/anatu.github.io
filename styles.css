@@ -299,51 +299,6 @@ a:hover {
 }
 
 /* ==========================================================================
-   Projects
-   ========================================================================== */
-
-.project {
-  margin-bottom: 28px;
-}
-
-.project:last-child {
-  margin-bottom: 0;
-}
-
-.project__header {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  margin-bottom: 4px;
-}
-
-.project__name {
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.project__name a {
-  color: var(--color-text);
-}
-
-.project__year {
-  font-size: 13px;
-  color: var(--color-text-muted);
-}
-
-.project__tags {
-  font-size: 13px;
-  color: var(--color-text-muted);
-  margin-bottom: 6px;
-}
-
-.project__body {
-  font-size: 14px;
-  color: var(--color-text-secondary);
-  line-height: 1.7;
-}
-
-/* ==========================================================================
    Footer
    ========================================================================== */
 
